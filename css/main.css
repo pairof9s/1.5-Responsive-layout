@@ -1,0 +1,12 @@
+header {
+  width: 965px;
+  height: 350px;
+  background-color: blue;
+}
+
+.logo {
+  width: 355px;
+  height: 355px;
+  background-color: orange;
+  margin-top: 40px;
+}
