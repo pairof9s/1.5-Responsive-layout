@@ -1,12 +1,58 @@
+body {
+  font-family: 'Montserrat';
+  padding-top: 0;
+  color: black;
+  background-color: #fff;
+}
+
 header {
   width: 965px;
-  height: 350px;
-  background-color: blue;
+  height: 650px;
+  background-color: lightblue;
+  margin: 0 auto;
+}
+
+header .row {
+    padding-top: 242px;
+    padding-bottom: 150px;
+}
+
+.container {
+    width: 965px;
+    height: auto;
+    color: black;
+    background-color: #ccc;
 }
 
 .logo {
-  width: 355px;
-  height: 355px;
+  max-width: 188px;
+  max-height: 188px;
   background-color: orange;
-  margin-top: 40px;
+  border: 10px;
+  border-radius: 5px;
+  border-color: darkblue;
+  margin: 50px auto;
+}
+
+.pg-title {
+  display: inline-block;
+  width: 188px;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 36px;
+  font-weight: 200;
+  text-align: center;
+  color: #f33c9d;
+}
+
+.imgbox {
+  max-width: 322px;
+  max-height: 400px;
+  float: left;
 }
