@@ -1,73 +1,110 @@
-body {
-  padding-top: 0;
-  color: black;
+.wrapper {
+
+  margin: 0 auto;
 }
 
-h1 {
-  font-size: 24px;
+.container {
+  width: 965px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  margin: 0, auto;
+}
+
+h1,
+h3 {
   font-weight: 700;
 }
 
-h2 {
-  font-size: 24px;
+h2,
+h4,
+h5 {
   font-weight: 400;
   color: rgb(128, 77, 26)
 }
 
+h6 {
+  font-weight: 300;
+}
+
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
-.container {
-    width: 965px;
-    height: auto;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    text-align: center;
-    color: black;
-    background-color: white;
-    margin: 0, auto;
+.logo h1 {
+  text-transform: uppercase;
+  text-align: center;
+  line-height: .9em;
+  margin-top: 9px;
 }
 
-header {
-  position: relative;
+.toptext h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #aaa;
+}
+
+.visit h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.phone h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: orange;
+}
+
+.web h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #aaa;
+}
+
+footer h4 {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.headimg {
   width: 965px;
   height: 350px;
   background-image: url(../assets/headimg.jpeg);
   background-size: cover;
-  border: 12px;
-  border-color: orange;
-  margin: 0 auto;
+  position: relative;
 }
 
-header:before {
+.headimg:before {
   content: "";
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 965px;
-  background-color: rgb(128, 77, 26, .75)
-}
-
-header h1 {
-  position: relative;
-  text-align: center;
-  width: 322px;
+  left: 0;
+  right: 0;
+  background-color: rgba(128, 77, 26, 0.7);
 }
 
 .logo {
-  max-width: 322px;
-  max-height: 322px;
+  width: 200px;
+  height: 330px;
   background-color: orange;
   border-radius: 5px;
-  margin: 0 auto;
-  vertical-align: middle;
+  padding-top: 14px;
+  margin: -6px auto;
+}
+
+.toptext {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
 }
 
 .pg-title {
   display: inline-block;
   width: 188px;
-  font-size: 2em;
+  font-size: 4em;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -82,12 +119,28 @@ header h1 {
   max-height: 322px;
 }
 
-.imgbox .right {
-  margin-left: -1px;
+.centercopy {
+  font-size: 28px;
+  font-weight: 200;
+  font-family: 'Montserrat';
+  text-align: center;
+  color: orange;
+  padding-top: 25px;
 }
 
-.centercopy {
-  font-size: 16px;
-  font-family: 'Montserrat';
-  color: green;
+.visit {
+  text-align: center;
+}
+
+.contact {
+  width: 100%;
+  height: 300px;
+  padding: 40px 0;
+}
+
+.copyright {
+  max-width: 100%;
+  height: 80px;
+  background-color: orange;
+  padding-top: 10px;
 }
