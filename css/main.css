@@ -1,8 +1,3 @@
-.wrapper {
-
-  margin: 0 auto;
-}
-
 .container {
   width: 965px;
   font-family: 'Montserrat';
@@ -21,49 +16,45 @@ h2,
 h4,
 h5 {
   font-weight: 400;
-  color: rgb(128, 77, 26)
 }
 
 h6 {
   font-weight: 300;
 }
 
-img {
-  width: 100%;
-}
-
 .logo h1 {
   text-transform: uppercase;
   text-align: center;
-  line-height: .9em;
+  font-weight: 700;
+  line-height: .95em;
   margin-top: 9px;
 }
 
 .toptext h2 {
   font-size: 2.5em;
   font-weight: 600;
-  color: #aaa;
+  color: #959590;
 }
 
 .visit h6 {
-  font-size: 18px;
+  font-size: 1.1em;
   font-weight: 400;
 }
 
 .phone h3 {
-  font-size: 40px;
+  font-size: 3em;
   font-weight: 600;
   color: orange;
 }
 
 .web h4 {
-  font-size: 28px;
+  font-size: 1.6em;
   font-weight: 600;
-  color: #aaa;
+  color: #959590;
 }
 
 footer h4 {
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: center;
   color: white;
 }
@@ -74,6 +65,7 @@ footer h4 {
   background-image: url(../assets/headimg.jpeg);
   background-size: cover;
   position: relative;
+  margin: 0 auto;
 }
 
 .headimg:before {
@@ -96,50 +88,41 @@ footer h4 {
 }
 
 .toptext {
-  text-align: center;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.pg-title {
   display: inline-block;
-  width: 188px;
-  font-size: 4em;
-  font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
-}
-
-.actiontx h2 {
-  text-align: center;
+  margin: 15px 0;
 }
 
 .imgbox {
-  max-width: 322px;
-  max-height: 322px;
+  max-width: 321px;
+  max-height: 321px;
 }
 
 .centercopy {
-  font-size: 28px;
-  font-weight: 200;
-  font-family: 'Montserrat';
+  width: 100%;
+  height: auto;
+  font-size: 1.6em;
+  font-weight: 300;
   text-align: center;
-  color: orange;
+  color: #959590;
   padding-top: 25px;
+  margin: 10px 0;
 }
 
-.visit {
+.visit,
+.phone,
+.web {
   text-align: center;
 }
 
 .contact {
-  width: 100%;
-  height: 300px;
+  height: 340px;
   padding: 40px 0;
+  margin: 20px 0;
 }
 
 .copyright {
-  max-width: 100%;
+  width: 100%;
   height: 80px;
   background-color: orange;
   padding-top: 10px;
