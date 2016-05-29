@@ -1,10 +1,9 @@
 .container {
-  width: 965px;
   font-family: 'Montserrat';
   font-size: 16px;
   color: black;
   background-color: white;
-  margin: 0, auto;
+
 }
 
 h1,
@@ -37,24 +36,26 @@ h6 {
 }
 
 .visit h6 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 400;
 }
 
 .phone h3 {
   font-size: 3em;
+  font-size: 4vmax;
   font-weight: 600;
   color: orange;
 }
 
 .web h4 {
   font-size: 1.6em;
+  font-size: 2vmax;
   font-weight: 600;
   color: #959590;
 }
 
 footer h4 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   color: white;
 }
@@ -75,7 +76,7 @@ footer h4 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(128, 77, 26, 0.7);
+  background-color: rgba(128, 77, 26, 0.5);
 }
 
 .logo {
@@ -93,20 +94,27 @@ footer h4 {
   margin: 15px 0;
 }
 
+.bikerow {
+  width: 95%;
+  height:321px;
+  margin: 0 auto;
+}
+
 .imgbox {
-  max-width: 321px;
-  max-height: 321px;
+  width: auto;
+  height:321px;
+  float: left;
 }
 
 .centercopy {
   width: 100%;
   height: auto;
+  margin-top: 10px;
   font-size: 1.6em;
   font-weight: 300;
   text-align: center;
   color: #959590;
   padding-top: 25px;
-  margin: 10px 0;
 }
 
 .visit,
